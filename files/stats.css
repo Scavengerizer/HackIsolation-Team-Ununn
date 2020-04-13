@@ -1,0 +1,92 @@
+/* world map svg */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width:100vw;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+.container{
+  background-color: #f5f5f5;
+  width: 90%;
+  margin: auto;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  letter-spacing: 2px;
+}
+.worldmap{
+  
+  position: relative;
+  flex:3;
+}
+.worldmap svg{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.stats{
+  height: 100%;
+  text-align: center;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.stats h1{
+  font-size: 3rem;
+  padding:1em;
+}
+h1{
+  color:#191919;
+}
+.list{
+  width: 100%;
+  flex:4;
+  justify-content: space-around;
+}
+.cases{
+  background-color: #FFE0E6;
+  color:#FF073A;
+}
+.active{
+  background-color:#EFF7FF ;
+  color: #007BFF;
+}
+.recovered{
+  background-color: #E4F4E8;
+  color:#28A745;
+}
+.deceased{
+  background-color: #e5e5e7;
+  color: #5a5858;
+}
+h2{
+  font-size:2rem;
+  padding-bottom:.5em;
+  padding-right:.5em;
+  padding-left:.5em;
+}
+h3{
+  font-size:1rem;
+  padding: 0.75em;
+  opacity: 0.8;
+}
+svg{
+  stroke:#f5f5f5;
+}
+path{
+  fill:rgb(211, 83, 83);
+}
+path:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}

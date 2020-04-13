@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./ration.css">
+  <link rel="stylesheet" href="./header.css">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/f76d7a14b0.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./LOGO.png" alt="">
+    </div>
+    <div class="link-items">
+      <ul class="links">
+        <li><a href="index.html" class="link">HOME</a></li>
+        <li><a href="stats.html" class="link">STATS</a></li>
+        <li><a href="ration.html" class="link">RATION CALCULATOR</a></li>
+        <li><a href="https://www.vox.com/coronavirus-covid19" class="link">BLOG</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="calculator">
+    <div class="heading">
+      <h1>RATION CALCULATOR</h1>
+    </div>
+    <!-- FONT AWESOME -->
+    <div class="inputs">
+      <div class="input1">
+        <i class="fas fa-male fa-3x"></i>
+        <div class="box">
+          <h3>Members in family</h3>
+        </div>
+        <input type="number" id="members" name="members">
+      </div>
+      <div class="input1">
+        <i class="fas fa-stopwatch fa-3x"></i>
+        <div class="box">
+          <h3>Duration (in days)</h3>
+        </div>
+        <input type="number" id="duration" name="duration">
+      </div>
+    </div>
+    <div class="qty">
+      <div class="box entqty">
+        <h3 class="enterqty">Enter Quantity</h3>
+      </div>
+      <div class="items">
+        <div class="item1">
+          <div class="box item">
+            <h3>CEREAL</h3>
+          </div>
+          <input type="number" id="cereal" name="cereal">
+        </div>
+        <div class="item1">
+          <div class="box item">
+            <h3>RICE</h3>
+          </div>
+          <input type="number" id="rice" name="rice">
+        </div>
+        <div class="item1">
+          <div class="box item">
+            <h3>PULSES</h3>
+          </div>
+          <input type="number" id="pulses" name="pulses">
+        </div>
+      </div>
+      <button id="calc" class="calcu"><a href="#results">CALCULATE</a></button>
+    </div>
+    <div class="results" id="results">
+      <h2>SUCCESS</h2>
+      <h6></h6>
+      <h3 class="success" id="success">YOUR GROCIES WILL LAST</h3>
+      <h1 id= "output" class="output"></h1>
+    </div>
+  </div>
+  <script src="./ration.js"></script>
+</body>
+
+</html>
