@@ -188,10 +188,13 @@ margin-top:1rem;
     font-weight: 400;
 }
 .symptom-img{
-    justify-items: center;
-    width: 60%;
-    height: 70%;
-    margin-left: 20%;
+  
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 70%;
+    margin: auto;
+    height: 100%;
     cursor: pointer;
 }
 /* section5 */
