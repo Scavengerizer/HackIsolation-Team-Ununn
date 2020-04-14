@@ -14,15 +14,13 @@ a{
   color:inherit;
 }
 .calculator{
+  padding-top:5rem;
   background-color: #f5f5f5;
   width: 80%;
-  height: 230vh;
   margin:auto;
 }
 .heading{
-  top:20%;
-  transform: translateY(20%);
-  height:7rem;
+  padding:2rem;
   width:70%;
   margin: auto;
   border-radius: 80px;
@@ -33,47 +31,42 @@ a{
   color:white;
 }
 .heading h1{
-  font-size: 3rem;
-  text-align:center;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 .inputs{
-  width:80%;
-  height: 100vh;
+  
+  width:100%;
   margin: auto;
-  top:5%;
-  transform: translateY(5%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 7rem;
 }
 .input1{
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-i{
-  padding:1em;
-  color:#3d3d3d;
-}
+
 .box{
-  margin:2rem;
+  width:15rem;
+  margin: 0 2rem;
+  padding: 1.25rem;
   background-color:#ff8080;
   border-radius:10px;
-  width:20rem;
-  height: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.75rem;
 }
 .box h3{
+  font-weight: 300;
+
   color:white;
-  font-family: 'Roboto';
 }
 input[type=number]{
   margin:1em;
-  /* padding:.5em; */
   background-color: #3d3d3d;
   border-radius:2rem;
   color:white;
@@ -83,70 +76,64 @@ input[type=number]{
   height: 4rem;
   text-align: center;
 }
-.fa-stopwatch{
-  padding:.75em;
-}
-/*for removing arrows in numbers input*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
-.entqty{
-  top:-100%;
-  transform: translateY(-100%);
+.space{
+  margin-right: 10rem;
 }
 .qty{
+  padding-top: 11rem;
   position: relative;
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .enterqty{
-   position: absolute;
-   top:0%;
-   transform: translateY(0%);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 6rem;
   text-align: center;
 }
 .items{
-  top:-15%;
-  transform: translateY(-15%);
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+} 
 .item1{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:2rem;
+  padding:1rem;
 }
 .item{
+  width:10rem;
   background-color: white;
   border:2px solid #3d3d3d;
 }
 .item h3{
+  font-size: 1.25rem;
   color:#3d3d3d;
 }
 .calcu{
+  margin-top: 5rem;
+  margin-bottom: 8rem;
   align-self: center;
   border-radius: 80px;
   border: none;
   width:15rem;
-  height:6rem;
+  padding:1.5rem;
   font-size: 2rem;
   background-color: #3d3d3d;
   color: white;
@@ -200,6 +187,5 @@ input[type=number] {
   top:30%;
   transform: translateY(30%);
   color:#3d3d3d;
-  /* margin-right: 100px; */
 }
   
